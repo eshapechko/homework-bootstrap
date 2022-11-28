@@ -12,21 +12,21 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
       <div class="container">
         <h1 class="text-center mt-5 mb-5">To Do App</h1>
-        <div class="row g-3 align-items-center mb-5">
-          <div class="col-4"></div>
-          <div class="col-2">
+        <div class="row g-3 justify-content-center mb-5">
+          <div class="col-3">
             <input
               type="text"
               placeholder="Enter s task here"
               class="form-control"
             />
           </div>
-          <div class="col-auto">
+          <div class="col-3">
             <button type="button" class="btn btn-primary text-uppercase">
               save
             </button>
@@ -35,57 +35,55 @@
             </button>
           </div>
         </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">No</th>
-              <th scope="col">Todo item</th>
-              <th scope="col">Status</th>
-              <th scope="col">Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td class="fs-5">Buy groceries for next week</td>
-              <td class="fs-5">In progress</td>
-              <td>
-                <button type="button" class="btn btn-danger text-uppercase">
-                  delete
-                </button>
-                <button type="button" class="btn btn-success text-uppercase">
-                  finished
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td class="fs-5">Jacob</td>
-              <td class="fs-5">In progress</td>
-              <td>
-                <button type="button" class="btn btn-danger text-uppercase">
-                  delete
-                </button>
-                <button type="button" class="btn btn-success text-uppercase">
-                  finished
-                </button>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td class="fs-5">Sign up for online course</td>
-              <td class="fs-5">In progress</td>
-              <td>
-                <button type="button" class="btn btn-danger text-uppercase">
-                  delete
-                </button>
-                <button type="button" class="btn btn-success text-uppercase">
-                  finished
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="row justify-content-center fw-semibold fs-4 mb-4">
+          <div class="col-1">No</div>
+          <div class="col-5">Todo item</div>
+          <div class="col-2">Status</div>
+          <div class="col-2">Action</div>
+        </div>
+        <div class="line"></div>
+        <div class="row justify-content-center fs-4 mb-4">
+          <div class="col-1 fw-semibold">1</div>
+          <div class="col-5">Buy groceries for next week</div>
+          <div class="col-2">In progress</div>
+          <div class="col-2">
+            <button type="button" class="btn btn-danger text-uppercase">
+              delete
+            </button>
+            <button type="button" class="btn btn-success text-uppercase">
+              finished
+            </button>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="row justify-content-center fs-4 mb-4">
+          <div class="col-1 fw-semibold">2</div>
+          <div class="col-5">Jacob</div>
+          <div class="col-2">In progress</div>
+          <div class="col-2">
+            <button type="button" class="btn btn-danger text-uppercase">
+              delete
+            </button>
+            <button type="button" class="btn btn-success text-uppercase">
+              finished
+            </button>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="row justify-content-center fs-4 mb-4">
+          <div class="col-1 fw-semibold">3</div>
+          <div class="col-5">Sign up for online course</div>
+          <div class="col-2">In progress</div>
+          <div class="col-2">
+            <button type="button" class="btn btn-danger text-uppercase">
+              delete
+            </button>
+            <button type="button" class="btn btn-success text-uppercase">
+              finished
+            </button>
+          </div>
+        </div>
+        <div class="line"></div>
       </div>
     </main>
     <!-- JavaScript Bundle with Popper -->
